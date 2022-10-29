@@ -1,0 +1,12 @@
+.header-menu-wrap {
+  a {
+    @apply ml-10 text-xl font-bold;
+  }
+}
+[id]::before {
+  content: '';
+  display: block;
+  height: 120px;
+  margin-top: -120px;
+  visibility: hidden;
+}
